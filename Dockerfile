@@ -4,8 +4,6 @@
 # versions of Debian images are downloaded.
 FROM debian:stretch
 
-MAINTAINER DKGE
-
 # Simple utility for download a specific version of the minecraft server.jar
 ENV MINECRAFT_UTILITY https://github.com/marblenix/minecraft_downloader/releases/download/latest/minecraft_downloader_linux
 # Version of minecraft to download
